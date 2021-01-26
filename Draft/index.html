@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clement Liu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li style="padding: 3px;"><img class="cactus-icon" src="./assets/cactus.png" width="50" height="50"></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+        <section id="home">
+            <video autoplay muted loop id="myVideo">
+                <source src="./assets/background-vid.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <h1>Hi, I'm Clement Liu</h1>
+            <p class="lead">I'm a fullstack developer.</p>
+        </section>
+        <section id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="pf-container">
+                <div class="pf-box" id="pf-1">Project 1<a class="pf-btn" href="">Go</a></div>
+                <div class="pf-box" id="pf-2">Project 2<a class="pf-btn" href="">Go</a></div>
+                <div class="pf-box" id="pf-3">Project 3<a class="pf-btn" href="">Go</a></div>
+                <div class="pf-box" id="pf-4">Project 4<a class="pf-btn" href="">Go</a></div>
+                <div class="pf-box" id="pf-5">Project 5<a class="pf-btn" href="">Go</a></div>
+                <div class="pf-box" id="pf-6">Project 6<a class="pf-btn" href="">Go</a></div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-container">
+                <h1>About Me</h1>
+                <p class="lead">Hi! I am a fullstack developer student based in Hong Kong. Previously studied chemistry in Canberra, Australia, I decided it wasn't the career I would like to pursue. During my study I developed an interest in software engineering. So here I am studying at Xccelerate!</p>
+                <img src="./assets/chemistry.jpg" alt="chemistry" style="height: 15vw;width: 27vw;"><img src="./assets/Xccelerate.png" alt="xccelerate" style="width: 15vw;height: 15vw;">
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xaylvkjl" method="POST">
+                    <label for="name">Name:   </label><br>
+                    <input type="text" id="name" name="name" placeholder="Name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" placeholder="sample@email.com"><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message" placeholder="Say hi!"><br>                
+                    <input type="submit" value="Submit">
+                </form>
+                <div><a href="https://github.com/" target="_blank">Github<i class="fab fa-github"></i></a><a href="https://www.linkedin.com/" target="_blank">Linkedin<i class="fab fa-linkedin-in"></i></a></div>
+            </div>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/8857d52862.js" crossorigin="anonymous"></script>
+</body>
